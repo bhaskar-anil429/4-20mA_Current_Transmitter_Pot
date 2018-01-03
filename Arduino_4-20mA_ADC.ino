@@ -1,8 +1,8 @@
-#include <Wire.h>
+//#include <Wire.h> remove this to use with photon
 #define Addr 0x50
 void setup()
 {
-  Serial.begin (9600);
+  Serial.begin(9600);
   Wire.begin();
  
 }
